@@ -540,7 +540,6 @@ Copyright (c) 2025 Amir Mobasheraghdam
 
 ---
 
-## 3. Example `LICENSE` (MIT)
 
 **File name:** `LICENSE`
 
