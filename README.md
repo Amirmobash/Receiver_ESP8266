@@ -191,9 +191,6 @@ void showConnecting() {
   display.display();
 }
 
-// ---------------------------------------------------------------------------
-// WiFi helper: make sure we are connected to the laser ESP8266 AP
-// ---------------------------------------------------------------------------
 void ensureWifiConnected() {
   if (WiFi.status() == WL_CONNECTED) {
     return; // already connected
