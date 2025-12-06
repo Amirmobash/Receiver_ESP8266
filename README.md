@@ -82,7 +82,7 @@ const unsigned long LASER_TIMEOUT_MS          = 5000; // 5 seconds
 // Helper: draw "AMIR" logo at the top center
 // ---------------------------------------------------------------------------
 void drawLogo() {
-  const char* logoText = "AMIR";
+  const char* logoText = "AMIR Mobasheraghdam";
 
   display.setTextSize(1);
   display.setTextColor(SSD1306_WHITE);
@@ -274,7 +274,7 @@ bool fetchDistanceFromLaser(long &mm) {
 }
 
 // ---------------------------------------------------------------------------
-// setup()
+// setup() Amir Mobasheraghdam IUT university 
 // ---------------------------------------------------------------------------
 void setup() {
   Serial.begin(115200);
