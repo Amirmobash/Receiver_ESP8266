@@ -1,5 +1,11 @@
 # Receiver_ESP826 – Empfänger für Laser-Entfernungsmesser (ESP8266 + OLED)
 
+
+<p align="center"><img src="docs/images/esp8266-oled-wifi-laser-distance-receiver.svg" alt="ESP8266 SSD1306 OLED Wi-Fi laser distance receiver using JSON readings" width="960" /></p>
+
+<sub>Conceptual illustration; not a verified hardware photograph or exact CAD export.</sub>
+
+
 Dieses Projekt realisiert einen **Empfänger** für einen laserbasierten Entfernungsmesser.  
 Die Hardware basiert auf einem **ESP8266 NodeMCU** und einem **1,3" I2C-OLED-Display** (SSD1306).  
 Der Empfänger verbindet sich mit dem Access Point des Laser‑Senders (ebenfalls ein ESP8266), fragt periodisch die aktuelle Entfernung per HTTP‑JSON ab und zeigt diese in Metern auf dem Display an.
